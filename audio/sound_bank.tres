@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="SoundBank" load_steps=27 format=3]
+
+[ext_resource type="Script" path="res://audio/sound_bank.gd" id="1"]
+[ext_resource type="AudioStream" path="res://space-shooter/music/1.ogg" id="2"]
+[ext_resource type="AudioStream" path="res://space-shooter/music/2.ogg" id="3"]
+[ext_resource type="AudioStream" path="res://space-shooter/music/3.ogg" id="4"]
+[ext_resource type="AudioStream" path="res://space-shooter/music/4.ogg" id="5"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/1.wav" id="6"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/2.wav" id="7"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/3.wav" id="8"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/4.wav" id="9"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/5.wav" id="10"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/6.wav" id="11"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/7.wav" id="12"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/8.wav" id="13"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/alert.wav" id="14"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/boss-death.wav" id="15"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/boss-shoot.wav" id="16"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/dark-shoot.wav" id="17"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/death.wav" id="18"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/gold-1.wav" id="19"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/gold-2.wav" id="20"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/gold-3.wav" id="21"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/gold-4.wav" id="22"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/laser.wav" id="23"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/power-up-1.wav" id="24"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/power-up-2.wav" id="25"]
+[ext_resource type="AudioStream" path="res://space-shooter/sounds/power-up-3.wav" id="26"]
+
+[resource]
+script = ExtResource("1")
+music_volume_db = -6.0
+sfx_volume_db = -4.0
+music_wave_1 = ExtResource("2")
+music_wave_2 = ExtResource("4")
+music_wave_3 = ExtResource("5")
+music_boss = ExtResource("3")
+player_shoot = ExtResource("6")
+player_hit = ExtResource("11")
+player_death = ExtResource("18")
+weapon_switch = ExtResource("9")
+bomb_launch = ExtResource("12")
+bomb_explode = ExtResource("10")
+rocket_launch = ExtResource("13")
+extra_life = ExtResource("25")
+gem_1 = ExtResource("19")
+gem_2 = ExtResource("20")
+gem_3 = ExtResource("21")
+gem_4 = ExtResource("22")
+powerup = ExtResource("24")
+crate_break = ExtResource("26")
+enemy_shoot = ExtResource("17")
+enemy_hit = ExtResource("7")
+enemy_death = ExtResource("8")
+meteor_break = ExtResource("8")
+benefactor_drop = ExtResource("26")
+boss_alert = ExtResource("14")
+boss_shoot = ExtResource("16")
+boss_beam = ExtResource("23")
+boss_death = ExtResource("15")
+menu_move = ExtResource("21")
+menu_confirm = ExtResource("24")
